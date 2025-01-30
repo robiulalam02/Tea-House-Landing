@@ -266,27 +266,59 @@
        </section>
       
     </main>
-    <footer class="bg-pink-100 h-[668px] p-36">
+    <footer class="bg-pink-100 sm:p-24 p-4">
       <!-- get started -->
       <div class="flex items-center justify-end gap-6">
         <p class="text-lg font-semibold">Ready to get strated?</p>
-        <button class="font-bold text-white bg-gradient-to-r from-[#ff8938] to-[#ff0000] py-4 px-7 rounded-lg">
+        <button class="font-bold text-white bg-gradient-to-r from-[#ff8938] to-[#ff0000] sm:py-4 sm:px-7 py-2 px-4 sm:text-base text-xs rounded-lg">
           Get Started
         </button>
       </div>
 
       <!-- footer card container -->
-      <div class="grid h-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <div class="grid h-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-16 gap-8 md:gap-5 lg:gap-0">
         <!-- footer first grid/ Quick Links -->
-         <div class="flex flex-col justify-between">
-          <h3>Quick Links</h3>
-          <ul>
+         <div class="flex flex-col gap-5">
+          <h3 class="text-2xl font-semibold">Quick Links</h3>
+          <ul class="flex flex-col justify-between gap-6 text-gray-600 text-lg">
             <li><a href="">Home</a></li>
             <li><a href="">About us</a></li>
             <li><a href="">Insurance</a></li>
             <li><a href="">Privacy Policy</a></li>
           </ul>
          </div>
+
+         <div class="flex flex-col gap-5">
+          <h3 class="text-2xl font-semibold">Our Service</h3>
+          <ul class="flex flex-col justify-between gap-6 text-gray-600 text-lg">
+            <li><a href="">Life Insurance</a></li>
+            <li><a href="">Car Insurance</a></li>
+            <li><a href="">Health Insurance</a></li>
+            <li><a href="">House Insurance</a></li>
+          </ul>
+         </div>
+
+         <div class="flex flex-col gap-5">
+          <h3 class="text-2xl font-semibold">Help</h3>
+          <ul class="flex flex-col justify-between gap-6 text-gray-600 text-lg">
+            <li><a href="">FAQs</a></li>
+            <li><a href="">Contact us</a></li>
+          </ul>
+         </div>
+
+         <div class="flex flex-col justify-between gap-5">
+          <h3 class="text-3xl font-semibold leading-relaxed">Subscribe to our <br> newsletter</h3>
+          <div class="flex justify-between">
+            <input class="bg-transparent pb-6 w-5/6 border-b-2 border-gray-600" placeholder="Email address" type="email" name="" id="">
+            <button class="w-8 h-8 text-white rounded-full bg-gradient-to-r from-[#ff8938] to-[#ff0000]"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+          <div class="text-white text-3xl flex gap-8 sm:justify-start justify-center mt-10 sm:mt-0">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-x-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+          </div>
+         </div>
+
       </div>
 
     </footer>
